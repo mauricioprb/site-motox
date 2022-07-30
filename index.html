@@ -7,19 +7,64 @@
     <title>Motox - Motos de alta performance</title>
 
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header-bg">
-        <div class="header">
+        <div class="header container">
             <a href="./"><img src="./img/logo.svg" alt="Motox"></a>
             <nav aria-label="primária">
-                <ul class="header-menu">
-                    <li><a href="./motos.html">Motos</a></li>
+                <ul class="font-1-m cor-0 header-menu">
+                    <li><a href="./motos.html" class="header-menu">Motos</a></li>
                     <li><a href="./seguros.html">Seguros</a></li>
                     <li><a href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <main class="intro-bg">
+        <div class="intro container">
+            <div class="intro-conteudo">
+                <h1 class="font-1-xxl cor-0">Motos de alta performance<span class="cor-p1">.</span></h1>
+                <p class="font-2-l cor-5">Lorem Ipsum is simply dummy text of the printin typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                <a href="./motos.hmtl" class="botao">Selecione a sua</a>
+            </div>
+            <div>
+                <img src="./img/fotos/intro.jpg" alt="Pessoa em uma moto preta">
+            </div>
+        </div>
+    </main>
+
+    <article class="motos-lista">
+        <h2 class="container font-1-xxl cor-11">motocicletas<span class="cor-p1">.</span></h2>
+
+        <ul class="motos-lista-itens">
+            <li>
+                <a href="./rock.html">
+                    <img src="./img/motos/im-from-rock.jpg" alt="Moto I'm From Rock">
+                    <h3 class="font-1-xl cor-11">I'm From Rock</h3>
+                    <span class="font-2-m cor-8">R$ 59999</span>
+                </a>
+            </li>
+            <li>
+                <a href="./fire.html">
+                    <img src="./img/motos/fire-rider.jpg" alt="Moto Fire Rider">
+                    <h3 class="font-1-xl cor-11">Fire Rider</h3>
+                    <span class="font-2-m cor-8">R$ 59999</span>
+                </a>
+            </li>
+            <li>
+                <a href="./ninja.html">
+                    <img src="./img/motos/ninja-ghost.jpg" alt="Moto Ninja Ghost">
+                    <h3 class="font-1-xl cor-11">Ninja Ghost</h3>
+                    <span class="font-2-m cor-8">R$ 59999</span>
+                </a>
+            </li>
+        </ul>
+    </article>
 </body>
 </html>
