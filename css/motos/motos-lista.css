@@ -44,7 +44,7 @@
     border-radius: 50%;
     margin-right: 8px;
     background-color: var(--cor-p1);
-    transition: 0.3;
+    transition: 0.3s;
 }
 
 .motos-lista a:hover h3::before {

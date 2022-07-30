@@ -3,12 +3,19 @@
 @import "./util/cores.css";
 
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* Utilidades */
 @import "./util/components.css";
 
 /* Home */
 @import "./home/intro.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
 
 /* Motos */
 @import "./motos/motos-lista.css";
+
+/* Seguros */
+@import "./seguros/seguros.css";
