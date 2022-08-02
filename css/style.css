@@ -18,6 +18,10 @@
 @import "./motos/motos-lista.css";
 @import "./motos/motos.css";
 
+/* Moto */
+@import "./moto/moto.css";
+@import "./moto/seguro.css";
+
 /* Seguros */
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";

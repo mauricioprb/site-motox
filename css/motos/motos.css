@@ -43,7 +43,7 @@
     margin-bottom: 20px;
 }
 
-.motos h2::before {
+.motos > h2::before {
     content: "";
     display: block;
     width: 12px;
