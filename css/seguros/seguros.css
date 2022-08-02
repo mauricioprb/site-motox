@@ -29,12 +29,13 @@
 
 .seguros-item h3 {
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .seguros-item span {
   grid-column: 2;
   display: block;
-  text-align: right;
+  text-align: right;  
 }
 
 .seguros-item ul {
@@ -59,7 +60,7 @@
   height: 8px;
   background-image: url("../../img/icons/lista.svg");
   position: absolute;
-  left: -21px;
+  left: -20px;
 }
 
 .seguros-item a {
