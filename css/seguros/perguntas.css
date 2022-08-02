@@ -9,7 +9,7 @@
 
 .perguntas dl > div {
     padding: 20px;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .perguntas dl > div:nth-child(odd) {
