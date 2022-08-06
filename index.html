@@ -6,9 +6,10 @@
     <meta name="description" content="As motocicletas importadas de mais alta performance do mercado internacional">
     <title>Motox - Motos de alta performance</title>
 
+    <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -34,9 +35,10 @@
                 <p class="font-2-l cor-5">Lorem Ipsum is simply dummy text of the printin typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                 <a href="./motos.html" class="botao">Selecione a sua</a>
             </div>
-            <div>
-                <img src="./img/fotos/intro.jpg" alt="Pessoa em uma moto preta">
-            </div>
+            <picture>
+                <source media="(max-width: 800px)" srcset="./img/fotos/intro.jpg">
+                <img src="./img/fotos/intro.jpg" width="1280" height="1600" alt="Pessoa em uma moto preta">
+            </picture>
         </div>
     </main>
 
